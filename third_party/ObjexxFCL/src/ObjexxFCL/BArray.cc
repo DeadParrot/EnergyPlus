@@ -15,8 +15,8 @@
 
 namespace ObjexxFCL {
 
-	// Static Data Member Definitions
-	BArray::size_type const BArray::npos;
-	BArray::size_type const BArray::max_size;
+// Static Data Member Definitions
+BArray::size_type const BArray::npos;
+BArray::size_type const BArray::max_size;
 
 } // ObjexxFCL

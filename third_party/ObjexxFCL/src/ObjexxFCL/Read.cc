@@ -15,9 +15,9 @@
 
 namespace ObjexxFCL {
 
-	// Static Data Member Definitions
+// Static Data Member Definitions
 #ifndef OBJEXXFCL_THREADS
-	std::istringstream ReadStream::internal_stream_; // Internal stream
+std::istringstream ReadStream::internal_stream_; // Internal stream
 #endif
 
 } // ObjexxFCL

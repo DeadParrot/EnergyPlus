@@ -317,7 +317,7 @@ namespace ObjexxFCL {
 		return stream;
 	}
 
-	// Static Data Member Definitions
-	Cstring::size_type const Cstring::npos;
+// Static Data Member Definitions
+Cstring::size_type const Cstring::npos;
 
 } // ObjexxFCL

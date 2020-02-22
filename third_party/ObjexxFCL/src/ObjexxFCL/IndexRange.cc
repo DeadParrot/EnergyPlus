@@ -137,9 +137,9 @@ namespace ObjexxFCL {
 		return stream;
 	}
 
-	// Static Data Member Definitions
-	IndexRange::size_type const IndexRange::npos;
-	int const IndexRange::l_min;
-	int const IndexRange::u_max;
+// Static Data Member Definitions
+IndexRange::size_type const IndexRange::npos;
+int const IndexRange::l_min;
+int const IndexRange::u_max;
 
 } // ObjexxFCL

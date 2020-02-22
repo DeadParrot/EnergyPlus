@@ -1039,8 +1039,8 @@ private: // Data
 
 }; // ChunkVector
 
-	// Static Data Member Template Definitions
-	template< typename T > typename ChunkVector< T >::size_type const ChunkVector< T >::max_size;
+// Static Data Member Definitions
+template< typename T > typename ChunkVector< T >::size_type const ChunkVector< T >::max_size;
 
 // Functions
 

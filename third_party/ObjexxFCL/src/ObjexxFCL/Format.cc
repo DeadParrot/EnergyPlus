@@ -1668,8 +1668,8 @@ alpha_token( Tokens const & tokens )
 		}
 	}
 
-	// Static Data Member Definitions
-	Format::Size const Format::NOSIZE;
-	std::string const Format::LF = std::string( "\n" );
+// Static Data Member Definitions
+Format::Size const Format::NOSIZE;
+std::string const Format::LF = std::string( "\n" );
 
 } // ObjexxFCL

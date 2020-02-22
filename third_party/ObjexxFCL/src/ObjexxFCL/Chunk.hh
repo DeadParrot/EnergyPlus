@@ -536,7 +536,7 @@ public: // Modifier
 
 public: // Static Data
 
-	static size_type const max_size; // Max size
+	static size_type const max_size{ static_cast< size_type >( -1 ) }; // Max size
 
 private: // Data
 
@@ -546,8 +546,8 @@ private: // Data
 
 }; // Chunk
 
-	// Static Data Member Template Definitions
-	template< typename T > typename Chunk< T >::size_type const Chunk< T >::max_size = static_cast< size_type >( -1 );
+// Static Data Member Definitions
+template< typename T > typename Chunk< T >::size_type const Chunk< T >::max_size;
 
 // Swap
 template< typename T >
